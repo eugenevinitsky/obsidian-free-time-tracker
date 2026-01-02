@@ -12,22 +12,33 @@ An Obsidian plugin that connects to your Google Calendar and warns you when your
 - **Warning notifications** - Get notified when free time is critically low
 - **Auto-refresh** - Automatically updates at configurable intervals
 
+## Requirements
+
+- **Obsidian** v0.16.0 or later
+- **No other plugins required** - works standalone
+- *(Optional)* If you have [Full Calendar](https://github.com/davish/obsidian-full-calendar) installed, this plugin can auto-import your iCal URLs from it
+
 ## Installation
 
-### Manual Installation
+### From Release
 
-1. Download the latest release (`main.js`, `manifest.json`, `styles.css`)
+1. Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](../../releases/latest)
 2. Create a folder called `obsidian-free-time-tracker` in your vault's `.obsidian/plugins/` directory
 3. Copy the downloaded files into that folder
 4. Reload Obsidian
 5. Enable the plugin in Settings > Community Plugins
 
-### Building from Source
+### From Source
 
-```bash
-npm install
-npm run build
-```
+1. Clone this repository
+2. Run the build:
+   ```bash
+   npm install
+   npm run build
+   ```
+3. Copy `main.js`, `manifest.json`, and `styles.css` to your vault's `.obsidian/plugins/obsidian-free-time-tracker/` directory
+4. Reload Obsidian
+5. Enable the plugin in Settings > Community Plugins
 
 ## Setup
 
