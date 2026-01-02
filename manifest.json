@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-free-time-tracker",
+  "name": "Free Time Tracker",
+  "version": "1.0.0",
+  "minAppVersion": "0.16.0",
+  "description": "Tracks your free time by analyzing Google Calendar and warns when you have less than a configurable threshold of free time.",
+  "author": "Eugene Vinitsky",
+  "isDesktopOnly": false
+}
